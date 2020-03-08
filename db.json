@@ -1,73 +1,14 @@
-[
- {
-          "code": "300001",
-          "customer": "Ahmed Radwan",
-          "address": "El Mokattam",
-          "phone": "010545424646",
-          "status": "FINISHED",
-          "type": "Pickup",
-          "items": [],
-          "noOfItems":0,
-          "notes":"",
-          "location":{
-            "lat":29.9136976,"lng":30.8893275
-          }
-        },
-        {
-          "code": "300002",
-          "customer": "Mohamed Radwan",
-          "address": "El Haram",
-          "phone": "010545424646",
-          "status": "PENDING",
-          "type": "Pickup",
-          "items": [],
-          "noOfItems":3,
-          "notes":"",
-           "location":{
-            "lat":29.9136976,"lng":30.8893275
-          }
-        },
-        {
-          "code": "300003",
-          "customer": "Diaa Radwan",
-          "address": "El Mokattam",
-          "phone": "010545424646",
-          "status": "FINISHED",
-          "type": "Deliver",
-          "items": [],
-          "noOfItems":4,
-          "notes":"",
-           "location":{
-            "lat":29.9136976,"lng":30.8893275
-          }
-        },
-        {
-          "code": "300004",
-          "customer": "Yasser Radwan",
-          "address": "El Haram",
-          "phone": "010545424646",
-          "status": "PENDING",
-          "type": "Pickup",
-          "items": [],
-          "noOfItems":0,
-          "notes":"",
-           "location":{
-            "lat":29.9136976,"lng":30.8893275
-          }
-        },
-        {
-          "code": "300005",
-          "customer": "Aly Radwan",
-          "address": "El Mokattam",
-          "phone": "010545424646",
-          "status": "FINISHED",
-          "type": "Deliver",
-          "items": [],
-          "noOfItems":0,
-          "notes":"",
-           "location":{
-            "lat":29.9136976,"lng":30.8893275
-          }
-        }
-
-]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
