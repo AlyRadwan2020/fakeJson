@@ -122,7 +122,7 @@
           ],
           "extra_services": [
             {
-              "type": "shirt_"color"ing",
+              "type": "shirt_coloring",
               "name": "Shirt "color"ing",
               "description": "Coloring shirts",
               "price": {
@@ -130,7 +130,7 @@
                 "Currency": "EGP"
               },
               "offer": false,
-              "extra_services"_sla: {
+              "extra_services_sla": {
                 "text": "1 hours",
                 "value": 3600
               },
@@ -145,7 +145,7 @@
                 "Currency": "EGP"
               },
               "offer": false,
-              "extra_services"_sla: {
+              "extra_services_sla": {
                 "text": "1 hours",
                 "value": 3600
               },
@@ -245,7 +245,7 @@
           ],
           "extra_services": [
             {
-              "type": "shirt_"color"ing",
+              "type": "shirt_coloring",
               "name": "Shirt "color"ing",
               "description": "Coloring shirts",
               "price": {
@@ -253,7 +253,7 @@
                 "Currency": "EGP"
               },
               "offer": false,
-              "extra_services"_sla: {
+              "extra_services_sla": {
                 "text": "1 hours",
                 "value": 3600
               },
@@ -268,7 +268,7 @@
                 "Currency": "EGP"
               },
               "offer": false,
-              "extra_services"_sla: {
+              "extra_services_sla": {
                 "text": "1 hours",
                 "value": 3600
               },
