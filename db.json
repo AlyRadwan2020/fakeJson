@@ -73,7 +73,7 @@
 
 ],
  "categories":[
-                    {"name": "Carpet", "count": 4, "image": "~/assets/images/navigate.jpg"},
+                    {"name": "Carpet", "count": 4, "image": "~/assets/images/carpet.png"},
                     {"name": "Blanket", "count": 6, "image": "~/assets/images/navigate.jpg"},
                     {"name": "Curtain", "count": 8, "image": "~/assets/images/navigate.jpg"},
                     {"name": "Cloth", "count": 40, "image": "~/assets/images/navigate.jpg"},
