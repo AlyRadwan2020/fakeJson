@@ -1,0 +1,9 @@
+{
+"categories":[
+                    {"name": this.$t('Carpet'), "count": 4, "image": "~/assets/images/navigate.jpg"},
+                    {"name": this.$t('Blanket'), "count": 6, "image": "~/assets/images/navigate.jpg"},
+                    {"name": this.$t('Curtain'), "count": 8, "image": "~/assets/images/navigate.jpg"},
+                    {"name": this.$t('Cloth'), "count": 40, "image": "~/assets/images/navigate.jpg"},
+                    {"name": this.$t('Other'), "count": 1, "image": "~/assets/images/navigate.jpg"}
+                ]
+}
