@@ -1,11 +1,318 @@
-{
-  "posts": [
-    {
-      "id": 2,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+        {
+          code: "300001",
+          customer: "Ahmed Radwan",
+          address: "El Mokattam",
+          phone: "010545424646",
+          status: "FINISHED",
+          type: "Pickup",
+          items: [],
+          noOfItems:0,
+          notes:"",
+          location:{
+            lat:29.9136976,lng:30.8893275
+          }
+        },
+        {
+          code: "300002",
+          customer: "Mohamed Radwan",
+          address: "El Haram",
+          phone: "010545424646",
+          status: "PENDING",
+          type: "Pickup",
+          items: [],
+          noOfItems:3,
+          notes:"",
+           location:{
+            lat:29.9136976,lng:30.8893275
+          }
+        },
+        {
+          code: "300003",
+          customer: "Diaa Radwan",
+          address: "El Mokattam",
+          phone: "010545424646",
+          status: "FINISHED",
+          type: "Deliver",
+          items: [
+             {
+          code: "#C1",
+          type: "Shirt",
+          category: "Cloth",
+          src:
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+          measuring_unit: "Piece",
+          associate_with_other_item: "true",
+          services: [
+            {
+              id: 1,
+              type: "DryClean",
+              name: "Shirt DryClean",
+              description: "Dry Clean shirts",
+              price: {
+                value: 40,
+                Currency: "EGP"
+              },
+              offer: true,
+              service_sla: {
+                text: "8 hours",
+                value: 28800
+              },
+              notification: {
+                skipping: true,
+                duration: 60,
+                color: "red"
+              },
+              sequence: 1,
+              time_to_next_service: 3600
+            },
+            {
+              type: "Pressing",
+              name: "Shirt Pressing",
+              description: "pressing shirts",
+              price: {
+                value: 2,
+                Currency: "EGP"
+              },
+              offer: true,
+              service_sla: {
+                text: "0.25 hours",
+                value: 900
+              },
+              notification: {
+                skipping: false,
+                duration: 20,
+                color: "blue"
+              },
+              sequence: 2,
+              time_to_next_service: 360
+            }
+          ],
+          stages: [
+            {
+              name: "Inspection",
+              description: "Inspect shirt ....",
+              available: true
+            },
+            {
+              name: "Clean",
+              description: "Clean shirt ....",
+              available: false
+            },
+            {
+              name: "Dry",
+              description: "Dry shirt ....",
+              available: false
+            },
+            {
+              name: "Press",
+              description: "Press shirt ....",
+              available: false
+            },
+            {
+              name: "Quality",
+              description: "Quality shirt ....",
+              available: false
+            },
+            {
+              name: "Dry",
+              description: "Dry shirt ....",
+              available: false
+            }
+          ],
+          extra_services: [
+            {
+              type: "shirt_coloring",
+              name: "Shirt coloring",
+              description: "Coloring shirts",
+              price: {
+                value: 5,
+                Currency: "EGP"
+              },
+              offer: false,
+              extra_services_sla: {
+                text: "1 hours",
+                value: 3600
+              },
+              parent: "DryClean"
+            },
+            {
+              type: "shirt_fix_button",
+              name: "Shirt fix buttons",
+              description: "Fix missing buttons",
+              price: {
+                value: 5,
+                Currency: "EGP"
+              },
+              offer: false,
+              extra_services_sla: {
+                text: "1 hours",
+                value: 3600
+              },
+              notification: {
+                skipping: false,
+                duration: 60,
+                color: "orange"
+              },
+              parent: "DryClean"
+            }
+          ]
+        },
+        {
+          code: "#C1",
+          type: "Shirt",
+          category: "Cloth",
+          src:
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+          measuring_unit: "Piece",
+          associate_with_other_item: "true",
+          services: [
+            {
+              id: 1,
+              type: "DryClean",
+              name: "Shirt DryClean",
+              description: "Dry Clean shirts",
+              price: {
+                value: 40,
+                Currency: "EGP"
+              },
+              offer: true,
+              service_sla: {
+                text: "8 hours",
+                value: 28800
+              },
+              notification: {
+                skipping: true,
+                duration: 60,
+                color: "red"
+              },
+              sequence: 1,
+              time_to_next_service: 3600
+            },
+            {
+              type: "Pressing",
+              name: "Shirt Pressing",
+              description: "pressing shirts",
+              price: {
+                value: 2,
+                Currency: "EGP"
+              },
+              offer: true,
+              service_sla: {
+                text: "0.25 hours",
+                value: 900
+              },
+              notification: {
+                skipping: false,
+                duration: 20,
+                color: "blue"
+              },
+              sequence: 2,
+              time_to_next_service: 360
+            }
+          ],
+          stages: [
+            {
+              name: "Inspection",
+              description: "Inspect shirt ....",
+              available: true
+            },
+            {
+              name: "Clean",
+              description: "Clean shirt ....",
+              available: false
+            },
+            {
+              name: "Dry",
+              description: "Dry shirt ....",
+              available: false
+            },
+            {
+              name: "Press",
+              description: "Press shirt ....",
+              available: false
+            },
+            {
+              name: "Quality",
+              description: "Quality shirt ....",
+              available: false
+            },
+            {
+              name: "Dry",
+              description: "Dry shirt ....",
+              available: false
+            }
+          ],
+          extra_services: [
+            {
+              type: "shirt_coloring",
+              name: "Shirt coloring",
+              description: "Coloring shirts",
+              price: {
+                value: 5,
+                Currency: "EGP"
+              },
+              offer: false,
+              extra_services_sla: {
+                text: "1 hours",
+                value: 3600
+              },
+              parent: "DryClean"
+            },
+            {
+              type: "shirt_fix_button",
+              name: "Shirt fix buttons",
+              description: "Fix missing buttons",
+              price: {
+                value: 5,
+                Currency: "EGP"
+              },
+              offer: false,
+              extra_services_sla: {
+                text: "1 hours",
+                value: 3600
+              },
+              notification: {
+                skipping: false,
+                duration: 60,
+                color: "orange"
+              },
+              parent: "DryClean"
+            }
+          ]
+        }],
+          noOfItems:4,
+          notes:"",
+           location:{
+            lat:29.9136976,lng:30.8893275
+          }
+        },
+        {
+          code: "300004",
+          customer: "Yasser Radwan",
+          address: "El Haram",
+          phone: "010545424646",
+          status: "PENDING",
+          type: "Pickup",
+          items: [],
+          noOfItems:0,
+          notes:"",
+           location:{
+            lat:29.9136976,lng:30.8893275
+          }
+        },
+        {
+          code: "300005",
+          customer: "Aly Radwan",
+          address: "El Mokattam",
+          phone: "010545424646",
+          status: "FINISHED",
+          type: "Deliver",
+          items: [],
+          noOfItems:0,
+          notes:"",
+           location:{
+            lat:29.9136976,lng:30.8893275
+          }
+        }
+      ]
