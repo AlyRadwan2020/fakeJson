@@ -123,7 +123,7 @@
           "extra_services": [
             {
               "type": "shirt_coloring",
-              "name": "Shirt "color"ing",
+              "name": "Shirt coloring",
               "description": "Coloring shirts",
               "price": {
                 "value": 5,
@@ -246,7 +246,7 @@
           "extra_services": [
             {
               "type": "shirt_coloring",
-              "name": "Shirt "color"ing",
+              "name": "Shirt coloring",
               "description": "Coloring shirts",
               "price": {
                 "value": 5,
