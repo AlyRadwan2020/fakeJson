@@ -71,5 +71,12 @@
           }
         }
 
-]
+],
+ "categories":[
+                    {"name": "Carpet", "count": 4, "image": "~/assets/images/navigate.jpg"},
+                    {"name": "Blanket", "count": 6, "image": "~/assets/images/navigate.jpg"},
+                    {"name": "Curtain", "count": 8, "image": "~/assets/images/navigate.jpg"},
+                    {"name": "Cloth", "count": 40, "image": "~/assets/images/navigate.jpg"},
+                    {"name": "Other", "count": 1, "image": "~/assets/images/navigate.jpg"}
+                ]
 }
