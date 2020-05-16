@@ -1,0 +1,137 @@
+{
+   "form":{
+      "item":{
+         "orderNumber":152154,
+         "numberOfItems":23,
+         "itemNumber":2,
+         "services":"Dry Clean",
+         "type":"Carpet",
+         "length":11,
+         "width":11,
+         "shape":"Circle",
+         "notifications":"No Perfume",
+         "notes":"No notes"
+      },
+      "itemMetadata":{
+         "propertyAnnotations":[
+            {
+               "name":"orderNumber",
+               "displayName":"Order Number",
+               "index":0,
+               "groupName":"Order Info"
+            },
+            {
+               "name":"itemNumber",
+               "displayName":"item Number",
+               "index":1,
+               "editor":"DataFormEditorType.Stepper",
+               "groupName":"Order Info"
+            },
+            {
+               "name":"numberOfItems",
+               "displayName":"Number of items",
+               "index":2,
+               "editor":"DataFormEditorType.Stepper",
+               "groupName":"Order Info"
+            },
+            {
+               "name":"length",
+               "displayName":"Length (cm)",
+               "index":3,
+               "editor":"DataFormEditorType.Stepper",
+               "groupName":"Item Details"
+            },
+            {
+               "name":"width",
+               "displayName":"Width (cm)",
+               "index":4,
+               "editor":"DataFormEditorType.Stepper",
+               "groupName":"Item Details"
+            },
+            {
+               "name":"shape",
+               "displayName":"Shape",
+               "index":5,
+               "editor":"DataFormEditorType.SegmentedEditor",
+               "editorParams":{
+                  "autoCompleteDisplayMode":"AutoCompleteDisplayMode.Tokens"
+               },
+               "valuesProvider":[
+                  "Rectangle",
+                  "Circle",
+                  "Other"
+               ],
+               "groupName":"Item Details"
+            },
+            {
+               "name":"type",
+               "displayName":"Type",
+               "index":6,
+               "editor":"DataFormEditorType.SegmentedEditor",
+               "editorParams":{
+                  "autoCompleteDisplayMode":"AutoCompleteDisplayMode.Tokens"
+               },
+               "valuesProvider":[
+                  "Carpet",
+                  "Blanket",
+                  "Curtain",
+                  "Cloth",
+                  "Other"
+               ],
+               "groupName":"Item Details"
+            },
+            {
+               "name":"services",
+               "displayName":"Services",
+               "index":7,
+               "editor":"DataFormEditorType.AutoCompleteInline",
+               "editorParams":{
+                  "autoCompleteDisplayMode":"AutoCompleteDisplayMode.Tokens"
+               },
+               "valuesProvider":[
+                  "Dry Clean",
+                  "Carpet Clean",
+                  "Wash&Fold"
+               ],
+               "groupName":"Item Details"
+            },
+            {
+               "name":"notifications",
+               "displayName":"Notifications",
+               "index":8,
+               "editor":"DataFormEditorType.AutoCompleteInline",
+               "editorParams":{
+                  "autoCompleteDisplayMode":"AutoCompleteDisplayMode.Tokens"
+               },
+               "valuesProvider":[
+                  "Pets odour",
+                  "No Perfume",
+                  " No Plastic Packaging"
+               ],
+               "groupName":"Item Details"
+            },
+            {
+               "name":"notes",
+               "displayName":"Notes",
+               "index":9,
+               "editor":"DataFormEditorType.MultilineText",
+               "groupName":"Item Details"
+            }
+         ]
+      },
+      "groups":[
+         {
+            "id":1,
+            "name":"Order Info",
+            "collapsible":true,
+            "collapsed":true
+         },
+         {
+            "id":2,
+            "name":"Item Details",
+            "collapsible":true,
+            "collapsed":false
+         }
+      ]
+   }
+}
